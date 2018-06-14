@@ -19,6 +19,12 @@ Lints ES5 and below.
 1. `npm install --save-dev eslint-config-neofonie eslint`
 2. add `"extends": "neofonie/legacy"` to your .eslintrc
 
+### eslint-config-neofonie/legendary
+Lints according to our current rules at Neofonie
+
+1. `npm install --save-dev eslint-config-neofonie eslint`
+2. add `"extends": "neofonie/legendary"` to your .eslintrc
+
 ## IDE Integration
 Install the ESLint validator plugin in your favorite text editor. Next step is to point the eslint [config](http://eslint.org/docs/user-guide/configuring) to the rules in [this](https://github.com/neofonie/eslint-config-neofonie) repo. To do that, clone the repo
 
