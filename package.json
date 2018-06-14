@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-ebay",
+  "name": "eslint-config-neofonie",
   "version": "1.0.0",
   "description": "ESLint config",
   "main": "index.js",
@@ -9,19 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ebay/eslint-config-ebay"
+    "url": "https://github.com/neofonie/eslint-config-neofonie"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "ebay",
+    "neofonie",
     "javascript",
     "styleguide"
   ],
   "author": "senthilp <senthil.padmanabhan@yahoo.com> | Michael Woo <mikewoo@yahoo.com>",
   "contributors": [],
-  "homepage": "https://github.com/ebay/eslint-config-ebay",
+  "homepage": "https://github.com/neofonie/eslint-config-neofonie",
   "devDependencies": {
     "eslint": "^2.4.0",
     "eslint-config-ebay": "^0.1.5"

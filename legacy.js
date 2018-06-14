@@ -2,11 +2,11 @@
 
 module.exports = {
     "extends": [
-        'eslint-config-ebay/rules/bp',
-        'eslint-config-ebay/rules/errors',
-        'eslint-config-ebay/rules/node',
-        'eslint-config-ebay/rules/style',
-        'eslint-config-ebay/rules/variables'
+        'eslint-config-neofonie/rules/bp',
+        'eslint-config-neofonie/rules/errors',
+        'eslint-config-neofonie/rules/node',
+        'eslint-config-neofonie/rules/style',
+        'eslint-config-neofonie/rules/variables'
     ].map(require.resolve),
     "rules": {},
     "env": {

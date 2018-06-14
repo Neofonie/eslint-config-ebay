@@ -2,8 +2,8 @@
 
 module.exports = {
     "extends": [
-        'eslint-config-ebay/legacy',
-        'eslint-config-ebay/rules/es6'
+        'eslint-config-neofonie/legacy',
+        'eslint-config-neofonie/rules/es6'
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2017
