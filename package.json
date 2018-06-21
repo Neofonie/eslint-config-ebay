@@ -24,7 +24,7 @@
   "homepage": "https://github.com/neofonie/eslint-config-neofonie",
   "devDependencies": {
     "eslint": "^2.4.0",
-    "eslint-config-ebay": "^0.1.5"
+    "eslint-config-neofonie": "^1.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
