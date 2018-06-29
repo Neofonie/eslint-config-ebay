@@ -1,15 +1,16 @@
 {
   "name": "eslint-config-neofonie",
-  "version": "1.0.1",
-  "description": "ESLint config",
+  "version": "1.0.2",
+  "description": "ESLint config for Neofonie projects based on ebays",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint .",
-    "test": "npm run lint && node test/rules"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/neofonie/eslint-config-neofonie"
+  "license": "MIT",
+  "homepage": "https://github.com/neofonie/eslint-config-neofonie",
+  "repository": "https://github.com/neofonie/eslint-config-neofonie.git",
+  "author": "senthilp <senthil.padmanabhan@yahoo.com> | Michael Woo <mikewoo@yahoo.com>",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "eslint-config-neofonie": "^1.0.1"
   },
   "keywords": [
     "eslint",
@@ -19,16 +20,8 @@
     "javascript",
     "styleguide"
   ],
-  "author": "senthilp <senthil.padmanabhan@yahoo.com> | Michael Woo <mikewoo@yahoo.com>",
-  "contributors": [],
-  "homepage": "https://github.com/neofonie/eslint-config-neofonie",
-  "devDependencies": {
-    "eslint": "^2.4.0",
-    "eslint-config-neofonie": "^1.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
-  },
-  "license": "MIT",
-  "dependencies": {}
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && node test/rules"
+  }
 }
