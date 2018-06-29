@@ -29,4 +29,3 @@ assert(legacyRulesFinalSet.size === legacyRulesIncluded.length &&
 // Testing ES6 rules
 assert(es6RulesIncluded.findIndex(isES6Rule) !== -1,
     `The ES6 rule "${rulesAvailable.filter(isES6Rule)}" should be inlcuded`);
-
