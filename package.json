@@ -10,7 +10,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.0.1",
-    "eslint-config-neofonie": "^1.0.1"
+    "eslint-config-neofonie": "^1.0.2"
   },
   "keywords": [
     "eslint",
