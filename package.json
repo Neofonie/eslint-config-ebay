@@ -9,8 +9,9 @@
   "author": "senthilp <senthil.padmanabhan@yahoo.com> | Michael Woo <mikewoo@yahoo.com>",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.0.1",
-    "eslint-config-neofonie": "^1.0.2"
+    "eslint": "^5.16.0",
+    "eslint-config-neofonie": "^1.0.2",
+    "lodash": ">=4.17.13"
   },
   "keywords": [
     "eslint",
