@@ -5,7 +5,7 @@ const assert = require('assert'),
     path = require('path');
 
 function isES6Rule(rule) {
-    return /\/es6\.js$/.test(rule);
+    return /es6\.js$/.test(rule);
 }
 
 const rulesAvailable = fs.readdirSync(path.join(__dirname, '../rules'))
